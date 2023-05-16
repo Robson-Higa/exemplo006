@@ -1,0 +1,42 @@
+
+.metadata {
+    margin-bottom: 10px;
+}
+
+.metadata-title {
+    font-family: 'bold';
+}
+
+.metadata-value {
+    font-family: 'regular';
+}
+
+#back-link {
+    display: block;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'bold';
+    background-color: #2d55ff;
+    padding: 10px 0;
+    color: white;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    #details-panel {
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #poster {
+        margin: 0 0 20px 0;
+        width: 80%;
+    }
+
+    .metadata {
+        text-align: center;
+    }
+}
